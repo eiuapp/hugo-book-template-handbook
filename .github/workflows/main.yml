@@ -14,5 +14,5 @@ jobs:
           sudo dpkg -i /tmp/hugo.deb
 
       - name: Run Hugo
-        working-directory: exampleSite
-        run: hugo --themesDir ../..
+        working-directory: ../../
+        run: hugo --themesDir ../../themes/book

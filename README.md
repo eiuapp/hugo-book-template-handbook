@@ -21,5 +21,5 @@
 ### 安装
 
 ```
-git submodule add https://github.com/matcornic/hugo-theme-learn.git themes/hugo-theme-learn
+git submodule add https://github.com/alex-shpak/hugo-book themes/book
 ```
