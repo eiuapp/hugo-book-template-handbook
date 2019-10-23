@@ -53,8 +53,9 @@ git submodule add https://github.com/alex-shpak/hugo-book themes/book
 ### sh文件处理
 
 ```bash
-echo "init.sh" >> .gitignore
-echo "public-gh-pages.sh" >> .gitignore
+echo "/init.sh" >> .gitignore
+echo "/public-gh-pages.sh" >> .gitignore
+echo "/project-name.sh" >> .gitignore
 ```
 
 ### 替换工程名
