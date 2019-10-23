@@ -7,11 +7,16 @@ echo "project name is: ${projectName}"
 
 ### 删除 .git 等暂时不需要的文件或文件夹
 
-rm -rf .git/
-rm -rf resources/
-rm -rf themes/book/
+mkdir -p bak/
+mv .git/ bak/
+mv resources/ bak/
+mv themes/book/ bak/
+# rm -rf .git/
+# rm -rf resources/
+# rm -rf themes/book/
 rm .travis.yml
 rm .gitmodules
+rm project-name.sh
 
 ### sh文件处理
 

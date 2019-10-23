@@ -1,10 +1,12 @@
 #.*
 !.gitignore
 /public/
+/resources*
+
 /update_theme.sh
 /update_theme_learn.sh
+/bak/
 /*.bak
-/resources*
 /content/temp/
 /archetypes/
 /sh/
