@@ -1,7 +1,10 @@
 #!/bin/bash
 
-repositoryDir=`git remote -v | awk '{print $2}'`
-hugo
+# repositoryDir=`git remote -v | awk '{print $2}' | head -n 1 `
+# hugo
+repositoryDir=$1
+echo "in public, the repository is: ${repositoryDir}"
+
 cd public/
 git init
 git remote add origin ${repositoryDir}

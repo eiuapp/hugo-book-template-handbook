@@ -23,7 +23,7 @@
 
 ## 方法1 执行 init.sh
 
-先要去 init.sh 中修改 `sequelize-handbook` 为 `工程名`，然后运行 `bash sh/init.sh`
+运行 `./init.sh 工程名`
 
 ## 方法2 step by step
 
