@@ -29,7 +29,7 @@ grep "sequelize" -rl ./README.md | xargs sed -i "s/sequelize/$1/g"
 ### content
 
 cat content/README.md > content/_index.md
-sed -i '4,999d' menu/index.md
+sed -i '4,999d' content/menu/index.md
 
 ### README.md
 
